@@ -1,0 +1,166 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+/* Email Section */
+.email-section {
+  position: relative;
+  padding: 100px 20px;
+  background: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Decorative Dots */
+.email-section::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  right: -60px;
+  width: 419px;
+  height: 419px;
+  background: url("images/dot.png") repeat;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* Keep all content above dots */
+.email-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Container */
+.email-section .email-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title */
+.email-section .email-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #030303;
+  margin: 0 auto 15px;
+  max-width: 576px;
+  text-align: center;
+}
+
+/* Subtitle */
+.email-section .email-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #030303;
+  max-width: 639px;
+  margin: 0 auto 50px;
+  text-align: center;
+  opacity: 1;
+}
+
+/* Steps Grid */
+.email-section .email-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 334px);
+  gap: 25px;
+  justify-content: center;
+  margin: 0 auto 40px;
+  max-width: 1404px;
+}
+
+/* Step Card */
+.email-section .email-step {
+  background: #FCE9E9;
+  padding: 25px;
+  width: 334px;
+  height: 353px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+/* Step Number */
+.email-section .email-step-number {
+  width: 50px;
+  height: 50px;
+  background: #E83132;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Step Title */
+.email-section .email-step-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  color: #030303;
+  margin: 0 0 10px 0;
+  max-width: 261px;
+}
+
+/* Step Text */
+.email-section .email-step-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #030303;
+  max-width: 257px;
+  height: 120px;      
+  overflow: hidden;
+}
+
+/* Button Wrap */
+.email-section .email-button-wrap {
+  text-align: center;
+}
+
+.email-section .email-button {
+  display: inline-block;
+  background: #e63946;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;      
+  font-style: normal;
+  font-size: 16px;        
+  line-height: 100%;     
+  letter-spacing: 0;
+  width: 194px;           
+  height: 51px;           
+  border-radius: 10px;     
+  text-align: center;
+  padding: 0;              
+  line-height: 51px;       
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.email-section .email-button:hover {
+  background: #c62828;
+}
+

@@ -1,0 +1,125 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+
+/* Section Base */
+.business-email-section {
+  background-color: #F5ECEC;
+  padding: 80px 20px;
+}
+
+/* Container */
+.business-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* Left Column */
+.business-left {
+  flex: 1;
+}
+
+.business-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;       
+  font-size: 36px;       
+  line-height: 130%;      
+  letter-spacing: 0;      
+  color: #030303;
+  width: 522px;           
+  height: 94px;          
+  margin-bottom: 20px;
+  opacity: 1;             
+}
+
+.business-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;         
+  font-style: normal;
+  font-size: 16px;          
+  line-height: 150%;        
+  letter-spacing: 0;        
+  color: #030303;           
+  max-width: 647px;        
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+/* Buttons */
+.business-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;              
+  height: 51px;              
+  background: #E63946;      
+  color: #FFFFFF;           
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;      
+  font-style: normal;
+  font-size: 16px;          
+  line-height: 100%;        
+  letter-spacing: 0;         
+  border-radius: 10px;     
+  text-decoration: none;
+  transition: 0.3s ease;
+  opacity: 1;               
+}
+
+.btn-primary:hover {
+  background: #C62828;      
+}
+
+.btn-outline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 149px;                 
+  height: 51px;                  
+  background: transparent;      
+  border: 1px solid #E83132;    
+  color: #E83132;                         
+  font-style: normal;
+  font-size: 16px;               
+  line-height: 100%;           
+  letter-spacing: 0;          
+  border-radius: 10px;           
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+  opacity: 1;                    
+}
+
+.btn-outline:hover {
+  background: #E63946;       
+  color: #fff;                 
+}
+
+
+/* Right Column */
+.business-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.business-image {
+  width: 601px;       
+  height: 601px;      
+  border-radius: 10px;
+  object-fit: cover; 
+  opacity: 1;        
+}
